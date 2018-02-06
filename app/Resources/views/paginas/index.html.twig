@@ -11,16 +11,10 @@
    <div class="container">
        <div class="row">
            <div class="col-md-16">
-                {{ render(controller(
+                 {{ render(controller(
                    'AppBundle\\Controller\\NodesController::indexAction',
                 { 'max': 3 }
-                )) }}
-               <div class="col-md-4">
-                   Lienzo
-               </div>
-               <div class="col-md-4">
-                   Variables
-               </div>
+                )) }}    
            </div>
        </div>
    </div>    
